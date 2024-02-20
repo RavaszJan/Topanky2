@@ -1,13 +1,13 @@
 # Topanky2
 
 # if __name__=="__main__"
-from topankycontroler import ShoeController
+from  topankycontroler import ShoeController
 from topankymodel import ShoeModel
-from topankyview import Shoeview
+from topankyview import ShoeView
 
 
 model=ShoeModel()
-view=Shoeview()
+view=ShoeView()
 controller=ShoeController(model,view)
 
 
